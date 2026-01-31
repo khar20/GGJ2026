@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af7615c3cad96874896bf1cadce6e236, type: 3}
+  m_Name: 3F9F547A-BB42-49E7-9AA6-FC298B6E597E
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_Menu_Cancel
+  id: 3362709232
+  guid: 3F9F547A-BB42-49E7-9AA6-FC298B6E597E
+  IsInUserDefinedSoundBank: 1
