@@ -1,0 +1,198 @@
+Event	ID	Name			Wwise Object Path	Notes
+	116059476	Play_Npc_Idle			\Default Work Unit\Npc\Play_Npc_Idle	
+	293921080	Play_MM_Music			\Default Work Unit\Music\Play_MM_Music	
+	347845317	Play_InGame_Music			\Default Work Unit\Music\Play_InGame_Music	
+	703173333	Play_Plyr_Vox_Special			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox_Special	
+	716806231	Play_Message			\Default Work Unit\HUD\Play_Message	
+	766669215	Play_Plyr_Vox_Horn			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox_Horn	
+	804361068	Play_Menu_Error			\Default Work Unit\Menu\Play_Menu_Error	
+	1559615426	Play_Npc_Attack			\Default Work Unit\Npc\Play_Npc_Attack	
+	1562304622	Play_Ambient			\Default Work Unit\Ambient\Play_Ambient	
+	1671475754	Play_Plyr_Vox_Grunt			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox_Grunt	
+	1695191155	Play_breathing_Lp			\Default Work Unit\Player\Play_breathing_Lp	
+	1857515512	Play_Plyr_Vox_Attack			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox_Attack	
+	1891799159	Play_Plyr_Fs			\Default Work Unit\Player\Play_Plyr_Fs	
+	2088191812	Play_menu_Gamestart			\Default Work Unit\Menu\Play_menu_Gamestart	
+	2167056030	Play_Menu_Select			\Default Work Unit\Menu\Play_Menu_Select	
+	2456347459	Play_HealthState			\Default Work Unit\HUD\Play_HealthState	
+	3329526714	Play_Plyr_Vox_Death			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox_Death	
+	3362709232	Play_Menu_Cancel			\Default Work Unit\Menu\Play_Menu_Cancel	
+	3737176454	Wind_Blow			\Default Work Unit\Ambient\Wind_Blow	
+	3770688955	Play_Plyr_Vox__Jump			\Default Work Unit\Player\Plyr_Vox_Events\Play_Plyr_Vox__Jump	
+	3825865420	Play_Credits_Music			\Default Work Unit\Music\Play_Credits_Music	
+	3835684012	Play_Menu_Hover			\Default Work Unit\Menu\Play_Menu_Hover	
+	3850878248	Stop_Ambient			\Default Work Unit\Ambient\Stop_Ambient	
+	3860455926	Play_Pickup			\Default Work Unit\HUD\Play_Pickup	
+	3888855080	Play_Npc_Death			\Default Work Unit\Npc\Play_Npc_Death	
+	4119826805	Play_Clothes_Lp			\Default Work Unit\Player\Play_Clothes_Lp	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	20433824	Fs_Material			\Default Work Unit\Fs_Material	
+	439968226	Amb_Switch			\Default Work Unit\Amb_Switch	
+
+Switch	ID	Name	Switch Group			Notes
+	787898836	Snow	Fs_Material			
+	841620460	Concrete	Fs_Material			
+	2185786256	Gravel	Fs_Material			
+	2195636714	Dirt	Fs_Material			
+	4248645337	Grass	Fs_Material			
+	514358619	Field	Amb_Switch			
+	787898836	Snow	Amb_Switch			
+	1850388778	Desert	Amb_Switch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1062779386	Player_Speed			\Default Work Unit\Player_Speed	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	95640651	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Silence\Silence	
+	362197832	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Silence_01\Silence	
+	414028519	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Silence_02\Silence	
+	518410131	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Silence_02\Silence	
+	691821509	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Silence\Silence	
+	830730179	Silence	Wwise Silence		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Silence_01\Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1240302	Fs_Dirt_03	.cache\4D\{4D09854A-7E5E-B047-7235-7F28172AD720}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_03		28528
+	4796652	Amb_Swt_Jungle_05	.cache\C6\{C649E64E-45A8-A137-FD70-6B381EB76CCB}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Amb_Swt_Jungle_05		308796
+	5120081	Vox_Attack_12	.cache\22\{2234EE96-16D8-8F0A-A152-246F37340373}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_12		85764
+	23743631	Plyr_Breathing	.cache\C6\{C68251AE-21A0-5819-BDFB-BF17D654112D}.wem		\Containers\Default Work Unit\Player\Plyr_Breathing		1086788
+	28318059	Fs_Gravel_08	.cache\1F\{1F09497B-84F9-C12F-E2E3-8CA3239A4B66}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_08		27456
+	46592487	Fs_Grass_08	.cache\FD\{FD6DB2E0-2AD9-154B-51FC-F618055D3BA3}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_08		30220
+	47488044	Vox_Attack_03	.cache\D3\{D3B5E670-E71D-98E9-3C01-9E64922557CF}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_03		86088
+	56783314	Fs_Dirt_06	.cache\27\{2715D7B5-0C35-1EF9-FA5C-A088B2E3F638}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_06		27480
+	58954142	Fs_Concrete_08	.cache\CD\{CD420A6B-09F3-B86F-5A5E-84C4C8F600FB}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_08		24712
+	65489655	Amb_Snow_Blow_07	.cache\27\{27F54C5A-7C30-BE4E-7EF2-EA5374DC799C}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_07		662820
+	70726879	Vox_Grunt_03	.cache\A2\{A236EBFA-4F85-FDE6-58B2-28510F1C0799}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_03		115580
+	79645135	Fs_Gravel_13	.cache\7A\{7AB08847-4B6B-15A6-67DC-B406606674A7}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel_Walk\Fs_Gravel_13		26500
+	87102074	Amb_Swt_Jungle_03	.cache\98\{98EE3787-06C3-C806-3E75-D0E429671ECF}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Amb_Swt_Jungle_03		132396
+	105859759	Vox_Attack_02	.cache\95\{95157A70-9835-6BD0-CE96-E51E64AE68F6}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_02		101460
+	108608299	Amb_Snow_Blow_06	.cache\29\{296533F1-9993-36F4-DD22-34E60C91FFBF}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_06		867484
+	113713182	Vox_Death_07	.cache\A3\{A3BABF76-E542-FA32-DD9C-E63E1F93083D}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_07		192754
+	120931821	Vox_Grunt_02	.cache\A6\{A60E3736-4EC5-036D-E1C9-45F1E220CD6C}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_02		116252
+	133536361	Vox_Jump_04	.cache\76\{769A2799-FB8D-23A0-A763-A902C9ECE405}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Jump\Vox_Jump_04		108946
+	134743463	Amb_Swt_Jungle_02	.cache\F7\{F7239D3D-B280-8BF3-ACE9-2799C234E6E9}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Amb_Swt_Jungle_02		427286
+	150441088	Fs_Concrete_04	.cache\7A\{7A251616-9B09-9A8C-FC0A-C7A1DF5B33E4}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_04		26828
+	150994446	Fs_Gravel_06	.cache\8C\{8C150BEC-66D8-44DF-75B7-13E97BACA3EA}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_06		28466
+	179638078	Fs_Dirt_07	.cache\02\{02C65FD6-04F0-436B-5909-FCE82F52E30F}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_07		27148
+	182489566	Fs_Concrete_06	.cache\8C\{8CCA4919-7745-4BF6-3380-8507D74C6343}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_06		31406
+	192292569	Amb_Lp_Snow	.cache\2B\{2B0A34E8-D032-E185-D9B5-24597FBD8056}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Snow\Amb_Lp_Snow		5625940
+	202449549	Vox_Attack_07	.cache\67\{6772D1D0-D051-3ACA-863E-28F9C3B7143F}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_07		109128
+	222458929	Fs_Gravel_07	.cache\9C\{9C51C42E-1F7F-4C08-D13B-88DBE630F1E7}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_07		26692
+	226126662	Vox_Death_01	.cache\D1\{D16C5D70-5391-A432-9B0B-3A70AF2AF9A9}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_01		107756
+	227268637	Vox_Death_06	.cache\FD\{FDBE9500-FAA3-A6DF-6620-846608A64D00}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_06		185434
+	235093433	Fs_Snow_11	.cache\58\{58580A04-BCD2-EDAF-2028-B5A96BA53916}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_11		24078
+	246354607	Vox_Grunt_04	.cache\D3\{D3344648-C845-FE0C-2786-8CE1B08A28C2}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_04		108066
+	247730186	Vox_Grunt_10	.cache\66\{66ADAA2F-1B4E-25D5-CFCA-7868E64839E3}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_10		97794
+	251088921	Fs_Dirt_01	.cache\AD\{ADDFDCDD-9808-BBEA-275D-36ABE1546D5C}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_01		29228
+	264916376	Amb_Snow_Blow_08	.cache\C8\{C87F42A8-8212-BF22-0382-12F2B1D074B0}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_08		828500
+	274889412	Fs_Snow_14	.cache\76\{76A5D5B2-36CB-C3F4-D1DF-E3C1EDE4A6D6}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_14		25834
+	288383252	Amb_Swt_Jungle_01	.cache\B6\{B60E8975-A987-491F-D1BC-CCDCAFAD2236}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Amb_Swt_Jungle_01		132396
+	300942716	Vox_Death_05	.cache\AB\{AB7B4246-B1DC-A3BA-E574-BB5008C09F51}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_05		191484
+	310952063	Fs_Gravel_16	.cache\14\{14C267C8-B292-A807-51EE-B125F2684E0D}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_16		27492
+	311745569	Fs_Grass_10	.cache\4D\{4DEBB1EB-7ED9-BC6D-E582-1DE2269D0E61}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass\Fs_Grass_10		26596
+	317112698	Fs_Concrete_03	.cache\2D\{2D066307-547C-2082-EFDE-682624E0ABC1}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_03		23458
+	329961792	Menu_Select	.cache\1F\{1FD83127-5577-1FBB-193F-A65B215D48BB}.wem		\Containers\Default Work Unit\Menu\Menu_Select		403960
+	330259946	Amb_Swt_Desert_05	.cache\28\{28D021BE-B899-B93B-C59B-3225D1D37B1B}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Amb_Swt_Desert_05		257078
+	347253257	Vox_Attack_09	.cache\64\{6432999F-F240-2196-AD20-A51D973C1E75}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_09		139194
+	358689631	Fs_Snow_05	.cache\E6\{E61D016C-2DE3-AC70-D167-9F6BE5392D7E}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_05		28704
+	366947991	Fs_Gravel_11	.cache\DD\{DDB5A497-AB3E-7BF6-3FC0-E6CCC9ED73E0}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel_Walk\Fs_Gravel_11		25644
+	387680643	Amb_Lp_Junge	.cache\68\{68309162-8FA1-4F1B-7672-AE87C0FDA1F6}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Amb_Lp_Junge		5747896
+	391840769	Vox_Grunt_15	.cache\1E\{1EA0FC36-BEA4-6BC2-D7E5-1472A06C2AD5}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_15		96746
+	392344498	Vox_Death_02	.cache\D1\{D1A5777F-DE09-E88D-3C95-AAD7E5061A09}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_02		146674
+	413632414	Fs_Dirt_04	.cache\E8\{E81D7712-577D-2F47-C6D6-49D508A09392}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_04		28902
+	414356701	Plyr_ClothesFoley	.cache\73\{737F569D-1C69-3747-4D3F-5A53722FD6B4}.wem		\Containers\Default Work Unit\Player\Plyr_ClothesFoley		637322
+	417971675	Vox_Special_01	.cache\DF\{DF20A5C6-5FC5-18E9-CE9B-18CB329E6CBC}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Special\Vox_Special_01		161684
+	419195773	Amb_Swt_Desert_02	.cache\E6\{E646C77C-92B1-A3A6-64DD-E0799C5FF9A2}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Amb_Swt_Desert_02		308796
+	426656546	Amb_Swt_Desert_01	.cache\CA\{CAE99201-DAD8-9619-1FDC-91A798E23A8F}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Amb_Swt_Desert_01		529296
+	426665550	Horn	.cache\BC\{BCB8B103-055F-BA43-0F8E-8F1F390ED6B6}.wem		\Containers\Default Work Unit\Player\VOX\Horn		527372
+	427143188	Fs_Concrete_14	.cache\04\{04246D54-6491-64EA-CE98-1FCB35CF6D26}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_14		25612
+	432163585	Fs_Snow_15	.cache\87\{8745DA61-456D-E3F9-5BC1-3AFBE802A673}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_15		25426
+	449388374	Fs_Dirt_14	.cache\2A\{2AD436D2-6352-D158-12A8-FBC61AE7EA04}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_14		28734
+	451364043	Vox_Attack_04	.cache\96\{96CA3B63-44A4-1400-E2B4-765B123A076D}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_04		19880
+	458946182	Game Start	.cache\6E\{6EECCBFA-5928-8298-034C-DE1F713B3B13}.wem		\Containers\Default Work Unit\Menu\Game Start		858496
+	473618396	Fs_Concrete_05	.cache\42\{429735CE-B41E-6D76-A3FA-1E15898FDE8D}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_05		21288
+	495430068	Vox_Grunt_09	.cache\F1\{F17FFD63-CC8C-064A-6E1B-C63B3E8884D5}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_09		101612
+	511524437	Fs_Dirt_10	.cache\00\{00E6C7F7-A701-4A8B-F583-F6E0B7754289}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_10		29368
+	518925038	Vox_Death_08	.cache\0D\{0D2DCC6A-5962-7426-7C1A-D38FCA01F2F7}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_08		161176
+	522147160	Fs_Dirt_13	.cache\A8\{A8C1BAA5-3BE9-07A7-2245-FAD896034AF0}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_13		29808
+	527625673	Fs_Grass_07	.cache\09\{09F0662A-EB07-1755-07BF-718328CCC86F}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_07		30842
+	537446713	Amb_Snow_Blow_02	.cache\8B\{8BE0833B-E83B-3059-C63D-67D957FA6899}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_02		1024088
+	544552349	Fs_Grass_13	.cache\98\{987861A5-12D6-A683-B81C-87AAC428060F}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_13		27494
+	548104599	Vox_Special_04	.cache\75\{754A2CEF-40F6-D1A4-4FCD-2D0B0570ADDD}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Special\Vox_Special_04		173562
+	551685860	Fs_Concrete_11	.cache\F6\{F644B24A-6976-A433-19D6-59DE4AE9FB89}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_11		25264
+	560997543	Vox_Grunt_14	.cache\91\{918B4928-8D23-D0C7-D4CB-9355A3940165}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_14		96946
+	573727091	Amb_Swt_Jungle_04	.cache\26\{26D75520-8735-A1FE-06D7-94004BBBD671}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Field\Sweetners\Amb_Swt_Jungle_04		352896
+	582864894	Fs_Gravel_09	.cache\D1\{D10921AF-EF6B-FFF6-898E-30114E24FDDB}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_09		27336
+	591602548	Fs_Snow_04	.cache\C8\{C86C1289-983F-AA13-719A-1FCF7E306A78}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_04		26388
+	600944456	Vox_Death_04	.cache\37\{373E28F7-7D97-5405-C384-C299CDD9F9BC}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_04		223808
+	608707897	Fs_Dirt_08	.cache\EF\{EFEDB381-E6D5-0621-18F2-B31E7BD17416}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_08		27044
+	610565226	Menu_Hover_01	.cache\F3\{F37B5663-CDF2-1674-68E0-C2A1BAD7854C}.wem		\Containers\Default Work Unit\Menu\Hover\Menu_Hover_01		333500
+	612476067	Amb_Swt_Desert_04	.cache\F5\{F53E60DD-0A7C-2995-2870-1A64791B7F7D}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Amb_Swt_Desert_04		183068
+	612936890	Fs_Dirt_12	.cache\A8\{A811FDC1-58B9-B654-CE78-8D121309C9E6}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_12		28216
+	619382244	Fs_Concrete_09	.cache\CC\{CCCD0BAF-B7DC-27E6-7ABB-2E082CBE4965}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_09		26686
+	644201691	Vox_Grunt_06	.cache\8C\{8C23D12A-1A3A-FF53-9071-050F0A024EBB}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_06		112444
+	649020720	Fs_Snow_01	.cache\D9\{D9BC0CF0-611D-F2BE-5261-5A6B335C5547}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_01		27180
+	649889459	Amb_Snow_Blow_04	.cache\B2\{B2D5B6FB-7660-7F8A-FA85-1E1B9CB60B23}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_04		643148
+	651034677	Fs_Snow_16	.cache\6C\{6C45A30F-53B9-3EF7-3575-215524B3407B}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_16		21314
+	653171011	Amb_Snow_Blow_03	.cache\44\{444C1D77-8578-3532-393A-CB35A1CE0020}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_03		1184848
+	655451063	Fs_Gravel_03	.cache\F0\{F0FC0AB9-B3D2-8415-CA8E-390ACBD40C26}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_03		26012
+	661433606	Amb_Snow_Blow_01	.cache\66\{661AF8AF-8E82-637F-A848-60CB72C53646}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_01		1108084
+	662046886	Vox_Attack_10	.cache\26\{26AF1C1A-EE20-A736-C5E6-78737FEC09EF}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_10		132270
+	670963542	Fs_Gravel_10	.cache\5E\{5EA08882-94C9-0B9D-7798-E39CF8078B24}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel_Walk\Fs_Gravel_10		27284
+	673596926	Vox_Attack_01	.cache\1C\{1CAC277B-3BB7-F6FE-82B6-8761BC15F2D7}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_01		86018
+	685339516	Fs_Dirt_02	.cache\C1\{C101F99A-4817-B9D5-5F08-96E5AB047F26}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_02		29348
+	685363563	Vox_Attack_08	.cache\85\{85BEBA65-3178-12AE-5B98-5B302533E66F}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_08		49214
+	696405633	Fs_Gravel_05	.cache\0B\{0B59AF7C-01F5-4250-ACE6-DD6D7B7D5D23}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_05		26258
+	714881223	Fs_Snow_08	.cache\0D\{0D590816-F084-E011-2125-6AF0BE474399}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_08		23388
+	715644302	Vox_Grunt_07	.cache\23\{23786E4A-4024-6B27-0690-79FD3FC6F4EC}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_07		107726
+	725092735	Vox_Attack_11	.cache\91\{91701638-74FA-839B-21DF-EB4AA4E95F49}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_11		111876
+	743959995	Fs_Concrete_07	.cache\BC\{BC992237-6E52-4274-14CF-05865E845523}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_07		23536
+	755675600	Fs_Grass_04	.cache\81\{81ACA506-ADF4-DF3B-EE6B-F245BD2C3178}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_04		28768
+	771021982	Fs_Concrete_01	.cache\7A\{7A1D706B-D86C-987D-7697-4C2262FB6D38}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_01		26290
+	772273545	Fs_Snow_06	.cache\C6\{C6517292-D2A0-7CD7-872D-F92F0F1215B4}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_06		26492
+	777540136	Vox_Grunt_12	.cache\CB\{CBCB38CE-4201-AD93-CC48-BF22750EF81F}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_12		111892
+	808036335	Vox_Grunt_11	.cache\B6\{B6D5EEF2-1249-38A3-478F-726E1273216C}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_11		106324
+	810875063	Fs_Gravel_02	.cache\F0\{F0297921-2544-7061-4A4A-8E82D341BA3F}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_02		26082
+	814600321	Fs_Snow_03	.cache\C7\{C718F0F8-6AD0-AE3F-17BC-68EEAAE42E69}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_03		23044
+	815194433	Fs_Gravel_14	.cache\E4\{E45C6CBB-5741-614F-5095-0257FFB70985}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_14		27282
+	816830200	Fs_Grass_03	.cache\2B\{2BD6D7E3-F4D8-ECD3-9F02-8DB7F43CFDC0}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_03		28736
+	821452573	Amb_Swt_Desert_03	.cache\F3\{F3879437-B85D-18B3-4AB8-D00E94FA163E}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Sweetners\Amb_Swt_Desert_03		346742
+	828591355	Vox_Jump_02	.cache\96\{96B89101-B750-166D-47E3-965C2DB240AE}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Jump\Vox_Jump_02		147120
+	834252301	Fs_Grass_02	.cache\E7\{E768197F-B93E-78AF-064B-A557A48821D6}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass\Fs_Grass_02		28700
+	841961843	Fs_Grass_05	.cache\F5\{F552DC48-EA13-073E-DC79-1B892084020D}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_05		28670
+	843416483	Fs_Grass_01	.cache\FF\{FFA61435-1F08-B40A-726C-0E8511146F07}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_01		26216
+	864018785	Vox_Grunt_13	.cache\8A\{8A87C4CC-95FF-082B-9A62-57EEF179B2DD}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_13		107698
+	871185173	Vox_Special_02	.cache\2E\{2EF432C5-FCB2-78D2-701F-33FFD39198DE}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Special\Vox_Special_02		171838
+	877953686	Fs_Concrete_15	.cache\68\{68A7E944-9D69-355B-B2EF-0042A334DCE7}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_15		26556
+	881530319	Fs_Snow_02	.cache\61\{61A1820D-3EEE-DC44-9305-A0132DD99B9C}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_02		26286
+	881650234	Fs_Grass_09	.cache\A8\{A8B54BFD-3A0B-3135-3EAB-BC27A7543189}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass_Walk\Fs_Grass_09		30150
+	884579673	Fs_Grass_14	.cache\41\{4102085F-0554-6594-3591-AAE36959192B}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass\Fs_Grass_14		28736
+	887460530	Vox_Grunt_01	.cache\82\{82A532CB-AD98-3362-8666-4E3D920B3FCA}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_01		105498
+	895582349	Fs_Concrete_13	.cache\2A\{2A7E21AB-6FE7-8C59-25AA-B8AFD7110DDA}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_13		24840
+	897177113	Fs_Grass_06	.cache\CF\{CF742E5C-D7A4-D0F1-E211-F58735BD5E79}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass\Fs_Grass_06		29940
+	913786066	Vox_Special_03	.cache\84\{84AC2947-CAF6-BCFF-02C8-F60D35312240}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Special\Vox_Special_03		139920
+	929879702	Fs_Concrete_02	.cache\A8\{A8843F24-3299-B481-2BEB-14A63F3D135D}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_02		27170
+	930435010	Vox_Attack_05	.cache\F3\{F3FC8421-6CB6-835B-EC9F-01729C3D1D53}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_05		117518
+	941746307	Fs_Gravel_04	.cache\A2\{A28E49D9-F170-7B2D-0B6E-DB0E8A2243BD}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel_Walk\Fs_Gravel_04		27490
+	943940693	Amb_Lp_Desert	.cache\D3\{D30AD698-D404-A64E-E0A2-273C53C14B7F}.wem		\Containers\Default Work Unit\Ambient\Amb_Switch\Desert\Amb_Lp_Desert		3880896
+	948554892	Fs_Snow_10	.cache\6F\{6FE3B384-D5A3-C09A-0033-90850EAA99A8}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow_Walk\Fs_Snow_10		24422
+	949286960	Fs_Gravel_01	.cache\61\{6170A9C0-170F-A132-B3C9-0259B3631D7B}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_01		24286
+	960126643	Vox_Grunt_05	.cache\CB\{CBB55031-07FA-F1DF-4B94-A41432464CBD}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_05		98168
+	978272936	Fs_Snow_12	.cache\6F\{6F7EB724-B352-F450-B037-6F13D994333A}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_12		26804
+	982485822	Fs_Concrete_16	.cache\70\{70EBDBC7-1FF1-4B7D-73D5-B05FE0965F9F}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete_Walk\Fs_Concrete_16		25104
+	987252679	Amb_Snow_Blow_05	.cache\A0\{A030CA22-7871-9AB7-B115-9F188460F3E6}.wem		\Containers\Default Work Unit\Ambient\Snow_Blow\Amb_Snow_Blow_05		996128
+	991565866	Menu_Hover_02	.cache\F0\{F0848984-E780-EB16-A1FA-A9E1DBFA6D48}.wem		\Containers\Default Work Unit\Menu\Hover\Menu_Hover_02		319884
+	997660772	Vox_Attack_06	.cache\75\{75CB9A9E-6778-BEAF-4464-F6299056C26D}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Attack\Vox_Attack_06		126674
+	998695192	Fs_Dirt_05	.cache\74\{74F9B795-BD3A-F56F-93AE-805590C05727}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt\Fs_Dirt_05		28442
+	999473367	Vox_Death_03	.cache\33\{3314F660-3678-FA6C-DE41-43D2CEDFB960}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Death\Vox_Death_03		217056
+	1000079905	Vox_Jump_03	.cache\FD\{FDCE698B-512B-8C81-F547-51692FF8D87B}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Jump\Vox_Jump_03		147120
+	1016138093	Fs_Dirt_11	.cache\C7\{C706A0D2-1B31-5EDA-E101-393FDEF88162}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_11		29908
+	1017619742	Fs_Grass_12	.cache\6C\{6C514F34-E26F-5B89-A517-073DAED1C9B5}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Grass_BC\Grass\Fs_Grass_12		27390
+	1019745452	Fs_Concrete_10	.cache\75\{75270B51-7E3D-1C90-E114-6883CACE3885}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Concrete_BC\Concrete\Fs_Concrete_10		24506
+	1042556990	Vox_Jump_01	.cache\B6\{B6DD1FE9-D1D0-EEE8-E528-42C5C9CD10D3}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Jump\Vox_Jump_01		130982
+	1042726731	Vox_Grunt_16	.cache\16\{16861098-1902-6704-884E-EA4137214188}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_16		45232
+	1051331745	Fs_Gravel_12	.cache\2C\{2CFFA457-6193-09A4-A0AD-3D21FA1D1324}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Gravel_BC\Gravel\Fs_Gravel_12		27370
+	1060734624	Vox_Grunt_08	.cache\7C\{7C728F1E-7936-DCD1-0E6C-7DD8ABC8C9B3}.wem		\Containers\Default Work Unit\Player\VOX\Vox_Grunt\Vox_Grunt_08		98262
+	1065149358	Fs_Snow_13	.cache\53\{539FEF8C-EB79-CF73-A0A0-1972AAC4420A}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Snow_BC\Snow\Fs_Snow_13		25942
+	1070948424	Fs_Dirt_09	.cache\EC\{EC70DF18-A679-0F9C-BC74-644DE9E7E434}.wem		\Containers\Default Work Unit\Player\Fs_Run_Material\Dirt_BC\Dirt_Walk\Fs_Dirt_09		29140
+

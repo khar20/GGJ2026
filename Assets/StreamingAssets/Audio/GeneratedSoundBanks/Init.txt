@@ -1,0 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3800848640	PlayerStatus			\Default Work Unit\PlayerStatus	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerStatus			
+	748895195	None	PlayerStatus			
+	779278001	Death	PlayerStatus			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Main Audio Bus\Ambient	
+	646625284	Hud			\Default Work Unit\Main Audio Bus\Hud	
+	662417162	Npc			\Default Work Unit\Main Audio Bus\Npc	
+	1069431850	Player			\Default Work Unit\Main Audio Bus\Player	
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	3991942870	Music			\Default Work Unit\Main Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Main Audio Bus\Reverb	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

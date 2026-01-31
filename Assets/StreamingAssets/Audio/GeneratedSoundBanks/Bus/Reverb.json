@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "348963605",
+    "Type": "Bus",
+    "GUID": "{CCB6D6BD-D6AA-420B-90E8-92568D39A002}",
+    "Language": "SFX",
+    "Hash": "{E8DAAB0F-1FAD-294D-758D-BE2B232C0C85}",
+    "ObjectPath": "Reverb",
+    "ShortName": "Reverb",
+    "Path": "Bus/Reverb.bnk",
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Reverb",
+      "GUID": "{CCB6D6BD-D6AA-420B-90E8-92568D39A002}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0F91B778-3411-F144-D61B-6ED640ACD75A}"
+ }
+}
