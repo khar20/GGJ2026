@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
         // Override the Y of targetPosition with our jump height
         Vector3 finalPos = targetPosition;
-        finalPos.y = 0.5f + verticalY; // 0.5f is the base height of the capsule
+        finalPos.y = 1.5f + verticalY; // 0.5f is the base height of the capsule
 
         transform.position = Vector3.Lerp(transform.position, finalPos, Time.deltaTime * laneSwitchSpeed);
     }

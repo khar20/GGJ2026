@@ -5,6 +5,18 @@ public class PauseController : MonoBehaviour
     public GameObject pauseMenuUI;
     private bool isPaused = false;
 
+    void Start()
+    {
+        // Force the menu to hide when game starts
+        if (pauseMenuUI != null)
+        {
+            pauseMenuUI.SetActive(false);
+        }
+
+        // Ensure time is running
+        Time.timeScale = 1f;
+    }
+
     void Update()
     {
         // Simple check for Phase 1; will be moved to Input Actions in Phase 2

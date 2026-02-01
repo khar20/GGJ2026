@@ -4,6 +4,7 @@ using UnityEngine.UI; // For HUD interaction
 public class HealthManager : MonoBehaviour
 {
     public PlayerStats stats;
+    public SceneLoader sceneManager;
 
     [Header("Current States (%)")]
     public float health = 100f;
@@ -50,8 +51,23 @@ public class HealthManager : MonoBehaviour
 
     void Die()
     {
+        if (health > 0) return; // Prevent double death
+
         Debug.Log("Player is Dead!");
-        Time.timeScale = 0; // Freeze game
-        // We will call the GameOver screen in Phase 8
+
+        // Play Wwise Death Sound (Create 'Play_Death' event in Wwise first)
+        // AK.Wwise.Event.Post("Play_Death", gameObject); 
+
+        // Trigger UI
+        if (sceneManager != null)
+        {
+            sceneManager.TriggerGameOver();
+        }
+        else
+        {
+            // Fallback if you forgot to link it
+            Debug.LogError("SceneLoader not assigned in HealthManager!");
+            Time.timeScale = 0;
+        }
     }
 }

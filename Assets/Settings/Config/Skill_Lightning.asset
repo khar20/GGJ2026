@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 513df66ee62438f4faf0e4b705dc797c, type: 3}
-  m_Name: Lightning
+  m_Name: Skill_Lightning
   m_EditorClassIdentifier: Assembly-CSharp::SkillData
   skillName: Lightning
   cooldown: 2
-  punishmentWeight: 15
+  punishmentWeight: 30
   icon: {fileID: 0}
