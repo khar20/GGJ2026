@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // 1. Move Forward constantly
-        transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+        transform.Translate(forwardSpeed * Time.deltaTime * Vector3.forward);
 
         // 2. Calculate Target Lane Position
         // If lane is 0, x = -3. If lane is 1, x = 0. If lane is 2, x = 3.
